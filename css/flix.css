@@ -1,0 +1,54 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&display=swap');
+
+        body{
+            font-family: 'Nobile', sans-serif;
+            text-align: center;
+            background-image: linear-gradient(to right, #ff97c8, #be81d1);
+        }
+        h1{
+            font-size: 50px;
+        }
+        .conteiner{
+            padding: 20px;
+        }
+        .title {
+            color: #ffffff;
+            margin: 0 0 5px;
+        }
+        .sub-title{
+            margin: 30px;
+            font-size: 35px;
+        }
+        .form-wrapper{
+            margin: 0 0 15px;
+        }
+        .form-wrapper > input{
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 15px;
+            font-family: 'Nobile', sans-serif;
+            border-radius: 8px;
+            border: none;
+        }
+        .form-wrapper > button{
+            border: none;
+            color: #ffffff;
+            background-color: rebeccapurple;
+            font-weight: bold;
+            padding: 15px 20px;
+            font-size: 16px;
+            border-radius: 8px;
+            margin-top:20px;
+            cursor: pointer;
+            font-family: 'Nobile', sans-serif;
+        }
+        .form-wrapper > button:hover{
+            opacity: 0.8;
+        }
+        #listaFilmes > img{
+            margin: 10px;
+            max-height: 250px;
+            
+        }
